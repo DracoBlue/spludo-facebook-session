@@ -3,8 +3,8 @@ spludo-facebook-session
 
 A FacebookSessionManager for Spludo <http://spludo.com>. Use Facebook-Connect as session handler.
 
-Version: 1.0.0
-Date: 2010/10/06
+Version: 1.1.0
+Date: 2010/12/29
 
 Official Site: <http://dracoblue.net/>
 
@@ -144,6 +144,14 @@ it by using:
 This will use (the previously installed MongoDbStorage) at localhost:8012 to store the
 additional data.
 
+Changelog
+---------
+
+- 1.1.0 (2010/12/29)
+  - added support for node-facebook-client 1.1
+  - removed fb_sig support
+- 1.0.0 (2010/10/06)
+  - Initial release
 License
 --------
 
